@@ -1,0 +1,35 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $white;
+  color: $black;
+  font-family: $primary-font;
+  margin: 0;
+  font-size: $base-font-size;
+  
+}
+
+main {
+  max-width: $content-width;
+  width: 100%;
+  margin: 0 auto;
+  padding: $grid-gutter * 2;
+}
+
+.emp-dir-table-row {
+  border-top: 1px solid #dee2e6;
+  vertical-align: top;
+
+  td {
+    padding: 12px;
+
+    &:first-child{
+      font-weight: bold;
+    }
+  }
+}   

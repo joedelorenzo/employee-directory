@@ -1,0 +1,20 @@
+.emp-dir-table-head {
+   font-weight: bold;
+   border-bottom: 2px solid #dee2e6;
+
+  button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
