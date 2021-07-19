@@ -4,7 +4,7 @@ const Title = () => {
   return (
     <div>
       <h1>Employee Directory</h1>
-      <h3>Sort And Search Through The Directory</h3>
+      <h3>Search Through The Directory</h3>
     </div>
   )
 }
